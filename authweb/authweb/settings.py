@@ -47,7 +47,7 @@ ROOT_URLCONF = 'authweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [ "./templates" ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -158,7 +158,7 @@ REST_FRAMEWORK = {
 }
 
 
-GRAPPELLI_ADMIN_TITLE = "Oftmart Inc"
+GRAPPELLI_ADMIN_TITLE = "Dial360 Inc"
 
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = config("EMAIL_HOST")
