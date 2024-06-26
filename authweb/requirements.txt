@@ -3,3 +3,4 @@ djangorestframework
 djoser 
 python-decouple 
 django-grappelli
+django-cors-headers
