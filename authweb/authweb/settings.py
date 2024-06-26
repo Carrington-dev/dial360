@@ -137,7 +137,9 @@ DJOSER = {
     'PASSWORD_CHANGED_EMAIL_CONFIRMATION': True,
     'USERNAME_CHANGED_EMAIL_CONFIRMATION': True,
     'LOGOUT_ON_PASSWORD_CHANGE': True,
-    # 'USERNAME_RESET_SHOW_EMAIL_NOT_FOUND': True,
+    'USERNAME_RESET_SHOW_EMAIL_NOT_FOUND': True,
+    'PASSWORD_RESET_SHOW_EMAIL_NOT_FOUND': True,
+    'LOGOUT_ON_PASSWORD_CHANGE': True,
     'SERIALIZERS': {
         'user_create': 'security.serializers.UserCreateSerializer',
         'user': 'security.serializers.UserCreateSerializer',
