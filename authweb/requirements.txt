@@ -1,0 +1,5 @@
+django 
+djangorestframework 
+djoser 
+python-decouple 
+django-grappelli
